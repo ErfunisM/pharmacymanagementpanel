@@ -2,7 +2,7 @@
 
 export const SIDEBAR_MENU_ITEMS = [
   {
-    item: "c",
+    item: "Dashboard",
     src: "/icons/dashboard.svg",
     link: "/dashboard",
   },
