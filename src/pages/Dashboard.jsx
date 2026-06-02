@@ -19,28 +19,28 @@ const TOTAL_CARD_DATA = [
 
     amount: "40689",
 
-    icon: "../../../public/icons/body/Total-Patient.svg",
+    icon: "/icons/body/Total-Patient.svg",
   },
   {
     name: "Total Appointments",
 
     amount: "10293",
 
-    icon: "../../../public/icons/body/Total-Appointments.svg",
+    icon: "/icons/body/Total-Appointments.svg",
   },
   {
     name: "Total Sales",
 
     amount: "8900",
 
-    icon: "../../../public/icons/body/Total-Sales.svg",
+    icon: "/icons/body/Total-Sales.svg",
   },
   {
     name: "Total Pending",
 
     amount: "2040",
 
-    icon: "../../../public/icons/body/Total-Pending.svg",
+    icon: "/icons/body/Total-Pending.svg",
   },
 ];
 

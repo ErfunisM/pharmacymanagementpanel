@@ -21,7 +21,7 @@ const Content = ({ children, title, buttonTitle, modal, modalTitle }) => {
             onClick={openModal}
             className="flex items-center justify-center text-white p-[20px] bg-red-500 w-fit h-1/2 rounded-[10px] cursor-pointer gap-3"
           >
-            <img src="../../../public/icons/body/plus.svg" alt="plus" />
+            <img src="/icons/body/plus.svg" alt="plus" />
             {buttonTitle}
           </button>
         )}

@@ -65,7 +65,7 @@ const Header = ({ onMenuClick, onDesktopMenuToggle }) => {
       <div className="flex gap-3 sm:gap-5 items-center">
         <div className="flex items-center justify-center w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] rounded-full bg-[#2D9CDB26] transition-colors cursor-pointer">
           <img
-            src="../../../public/icons/notification.svg"
+            src="/icons/notification.svg"
             alt="notification"
             className="w-5 h-5 sm:w-6 sm:h-6"
           />

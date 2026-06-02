@@ -33,7 +33,7 @@ const DoctorsModal = ({ onClose }) => {
           <div className="flex items-center flex-col gap-4">
             <img
               className="w-[50px] h-[50px]"
-              src="../../../public/icons/body/Heart.svg"
+              src="/icons/body/Heart.svg"
               alt=""
             />
             <span className="font-bold">

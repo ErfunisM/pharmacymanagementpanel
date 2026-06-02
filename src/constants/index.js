@@ -3,42 +3,42 @@
 export const SIDEBAR_MENU_ITEMS = [
   {
     item: "c",
-    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/dashboard.svg",
+    src: "/icons/dashboard.svg",
     link: "/dashboard",
   },
   {
     item: "Appointments",
-    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/appointments.svg",
+    src: "/icons/appointments.svg",
     link: "/appointments",
   },
   {
     item: "Doctors",
-    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/doctors.svg",
+    src: "/icons/doctors.svg",
     link: "/doctors",
   },
   {
     item: "Staff",
-    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/staff.svg",
+    src: "/icons/staff.svg",
     link: "/staff",
   },
   {
     item: "Patients",
-    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/patients.svg",
+    src: "/icons/patients.svg",
     link: "/patients",
   },
   {
     item: "Pharmacies",
-    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/pharmacies.svg",
+    src: "/icons/pharmacies.svg",
     link: "/pharmacies",
   },
   {
     item: "Schedule",
-    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/schedule.svg",
+    src: "/icons/schedule.svg",
     link: "/schedule",
   },
   {
     item: "Clinic info",
-    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/clinic-info.svg",
+    src: "/icons/clinic-info.svg",
     link: "/clinicinfo",
   },
 ];

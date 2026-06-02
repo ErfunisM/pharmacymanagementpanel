@@ -12,7 +12,7 @@ const Filter = ({ items, onFilter, onReset, selectedFilters }) => {
   const datePickerRef = useRef(null);
   const dropdownRefs = useRef({});
 
-  const FilterSvg = "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/filter.svg";
+  const FilterSvg = "/icons/body/Filter.svg";
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
@@ -324,7 +324,7 @@ const Filter = ({ items, onFilter, onReset, selectedFilters }) => {
           </div>
           <div className="flex items-center h-full px-[20px] py-0">
             <img
-              src="../../../public/icons/body/Reset-Filter.svg"
+              src="/icons/body/Reset-Filter.svg"
               alt="reset"
             />
             <button
@@ -345,7 +345,7 @@ const Filter = ({ items, onFilter, onReset, selectedFilters }) => {
           >
             <div className="flex items-center gap-2">
               <img
-                src="../../../public/icons/body/Filter.svg"
+                src="/icons/body/Filter.svg"
                 alt="filter"
                 className="w-5 h-5"
               />
