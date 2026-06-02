@@ -8,37 +8,37 @@ export const SIDEBAR_MENU_ITEMS = [
   },
   {
     item: "Appointments",
-    src: "../../../public/icons/appointments.svg",
+    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/appointments.svg",
     link: "/appointments",
   },
   {
     item: "Doctors",
-    src: "../../../public/icons/doctors.svg",
+    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/doctors.svg",
     link: "/doctors",
   },
   {
     item: "Staff",
-    src: "../../../public/icons/staff.svg",
+    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/staff.svg",
     link: "/staff",
   },
   {
     item: "Patients",
-    src: "../../../public/icons/patients.svg",
+    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/patients.svg",
     link: "/patients",
   },
   {
     item: "Pharmacies",
-    src: "../../../public/icons/pharmacies.svg",
+    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/pharmacies.svg",
     link: "/pharmacies",
   },
   {
     item: "Schedule",
-    src: "../../../public/icons/schedule.svg",
+    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/schedule.svg",
     link: "/schedule",
   },
   {
     item: "Clinic info",
-    src: "../../../public/icons/clinic-info.svg",
+    src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/clinic-info.svg",
     link: "/clinicinfo",
   },
 ];
