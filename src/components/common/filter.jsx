@@ -12,6 +12,8 @@ const Filter = ({ items, onFilter, onReset, selectedFilters }) => {
   const datePickerRef = useRef(null);
   const dropdownRefs = useRef({});
 
+  const FilterSvg = "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/filter.svg";
+
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
     handleResize();
@@ -305,7 +307,7 @@ const Filter = ({ items, onFilter, onReset, selectedFilters }) => {
       {!isMobile && (
         <div className="flex items-center justify-around shadow-sm text-black bg-white w-full rounded-[10px] p-0 h-full">
           <div className="flex items-center h-full px-[20px] py-0 border-r border-gray-300">
-            <img src="../../../public/icons/body/Filter.svg" alt="filter" />
+            <img src={FilterSvg} alt="filter" />
             <span className="text-sm font-semibold text-gray-700 mr-2">
               Filter By
             </span>

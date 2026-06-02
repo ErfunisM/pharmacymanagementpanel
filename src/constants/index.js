@@ -2,7 +2,7 @@
 
 export const SIDEBAR_MENU_ITEMS = [
   {
-    item: "Dashboard",
+    item: "c",
     src: "https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/80d5bf1a7c63359c6ee593b515214f5675dac767/Images/icons/dashboard.svg",
     link: "/dashboard",
   },
