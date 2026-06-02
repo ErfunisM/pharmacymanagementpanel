@@ -45,7 +45,7 @@ const Patients = () => {
 
   useEffect(() => {
     fetch(
-      `https://raw.githubusercontent.com/ErfuniisM/AfiaTechDataBase/refs/heads/main/data/patient.json`,
+      `https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/refs/heads/main/Jsons/patient.json`,
     )
       .then((res) => res.json())
       .then((data) => {

@@ -28,7 +28,7 @@ const Pharmacies = () => {
 
   useEffect(() => {
     fetch(
-      `https://raw.githubusercontent.com/ErfuniisM/AfiaTechDataBase/refs/heads/main/data/pharmacies.json`,
+      `https://raw.githubusercontent.com/ErfunisM/PharmacyManagementPanel-Database/refs/heads/main/Jsons/pharmacies.json`,
     )
       .then((res) => {
         if (!res.ok) {
